@@ -1,0 +1,87 @@
+/* add show more option for description */
+
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2.5rem;
+}
+
+.portfolio__item {
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    transition: var(--transition);
+    height: fit-content;
+}
+
+.portfolio__item:hover {
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.portfolio__item-image img{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1rem auto;
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.description-toggle {
+    color: var(--color-primary);
+    display: flex;
+    width: fit-content;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-left: 0.5rem;
+}
+
+.point {
+    padding: 0.5rem;
+}
+
+.description-toggle:hover {
+    color: var(--color-light);
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+
+/* add show option instead of description --> also add hide option */
+
+
+/* =============== Media Queries (Medium Devices) ================= */
+
+@media screen and (max-width: 1024px) {
+    .portfolio__container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.2rem;
+    }
+}
+
+/* =============== Small Queries (Small Devices) ================= */
+
+@media screen and (max-width: 600px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
