@@ -63,7 +63,11 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light)
+    color: var(--color-light);
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border-color: var(--color-primary-variant);
+    cursor: default;
 }
 
 /* =============== Media Queries (Medium Devices) ================= */
