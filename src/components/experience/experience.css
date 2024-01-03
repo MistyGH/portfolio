@@ -4,7 +4,7 @@
     grid-gap: 2rem;
 }
 
-.experience__container > div {
+.experience__container>div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -12,23 +12,21 @@
     transition: var(--transition);
 }
 
-.experience__container > div:hover {
+.experience__container>div:hover {
     background: var(--transparent);
     border-color: var(--color-primary-variant);
     backdrop-filter: blur(0.5rem);
     cursor: default;
 }
 
-.experience__container > div > h3 {
+.experience__container>div>h3 {
     text-align: center;
     margin-bottom: 0.5rem;
     color: var(--color-primary);
 }
 
-.yrs {
-    text-align: center;
-    color: var(--color-light);
-    margin-bottom: 2rem;
+.experience__container>div>h6>yrs {
+    margin-bottom: 0.5rem;
 }
 
 .experience__content {
@@ -38,6 +36,7 @@
 }
 
 .experience__details {
+    margin-top: 1rem;
     display: flex;
     gap: 1rem;
 }
@@ -54,7 +53,7 @@
         grid-template-columns: 1fr;
     }
 
-    .experience__container > div {
+    .experience__container>div {
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
@@ -72,7 +71,7 @@
         gap: 1rem;
     }
 
-    .experience__container > div {
+    .experience__container>div {
         width: 100%;
         padding: 2rem, 1rem;
     }

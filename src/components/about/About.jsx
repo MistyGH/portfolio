@@ -23,17 +23,17 @@ const About = () => {
             <article className="about__card">
               <PiStudentBold className='about__icon' />
               <h5>University</h5>
-              <small>2nd Year Student</small>
+              <small>2nd Year Student (U of T)</small>
             </article>
             <article className="about__card">
               <FaCodeBranch className='about__icon' />
               <h5>Projects</h5>
-              <small>15+ projects</small>
+              <small>20+ projects</small>
             </article>
             <article className="about__card">
               <BsJournalCode className='about__icon' />
               <h5>Languages</h5>
-              <small>7+ Programming Languages</small>
+              <small>10+ Programming Languages</small>
             </article>
           </div>
 
