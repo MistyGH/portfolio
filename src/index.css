@@ -12,12 +12,9 @@
 }
 
 :root {
-    /* --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: #(77, 181, 255, 0.4);
-    --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6); */
+    /* 
+    https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/
+    */
 
     --color-bg: #003249;
     --color-bg-variant: #007EA7;
@@ -38,7 +35,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-    display:none;
+    display: none;
 }
 
 body {
@@ -60,7 +57,11 @@ body {
     overflow: hidden;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
 }
 
@@ -73,12 +74,13 @@ section {
     padding-top: 2rem;
 }
 
-section > h2, section > h5 {
+section>h2,
+section>h5 {
     text-align: center;
     color: var(--color-light)
 }
 
-section > h2 {
+section>h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
 }
@@ -88,7 +90,7 @@ section > h2 {
 }
 
 a {
-        
+
     color: var(--color-primary);
     transition: var(--transition);
 }
@@ -144,7 +146,7 @@ img {
         width: var(--container-width-sm);
     }
 
-    section > h2 {
+    section>h2 {
         margin-bottom: 2rem;
     }
 }

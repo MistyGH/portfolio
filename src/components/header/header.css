@@ -50,15 +50,15 @@ header {
     margin-top: 2rem;
     border-radius: 50% 50% 25% 25% / 75% 75% 50% 50%;
     overflow: hidden;
-    padding: 0rem 0 0rem 0;
+    padding: 2rem 0 0rem 0;
 }
 
 .me img {
     margin-left: auto;
     margin-right: auto;
-    width: 23rem;
+    width: 20rem;
     -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)) 50%, to(rgba(0, 0, 0, 0))) 75%;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 90%);
 }
 
 /* ====== Scroll ====== */
@@ -84,7 +84,7 @@ header {
     }
 
     .me img {
-        width: 20rem;
+        width: 18rem;
     }
 }
 
@@ -101,6 +101,6 @@ header {
     }
 
     .me {
-        width: 23rem;
+        width: 21rem;
     }
 }
