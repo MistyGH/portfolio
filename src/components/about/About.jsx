@@ -38,7 +38,7 @@ const About = () => {
           </div>
 
           <p className='solid'>
-            I am a dedicated and ambitious undergraduate student pursuing a Bachelor's degree in Computer Engineering at the University of Toronto. With a current CGPA of 3.95 and expected graduation in 2026, I demonstrate a strong academic foundation. My experience as a Programming Lead for a high school robotics club showcases my leadership and technical skills, while my tutoring background highlights my ability to mentor and support others. I have also completed diverse projects, including developing a hand gesture recognition system and creating a Rubik's Cube program in Java. With a wide range of technical skills and certifications, I am a passionate developer ready to tackle new challenges.
+            I am a dedicated and ambitious undergraduate student pursuing a Bachelor's degree in Computer Engineering at the University of Toronto. With a current CGPA of 3.96 and expected graduation in 2026, I demonstrate a strong academic foundation. My experience as a Programming Lead for a high school robotics club showcases my leadership and technical skills, while my tutoring background highlights my ability to mentor and support others. I have also completed diverse projects, including developing a hand gesture recognition system and creating a Rubik's Cube program in Java. With a wide range of technical skills and certifications, I am a passionate developer ready to tackle new challenges.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk!</a>
