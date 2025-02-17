@@ -23,7 +23,7 @@ const About = () => {
             <article className="about__card">
               <PiStudentBold className='about__icon' />
               <h5>University</h5>
-              <small>2nd Year Student (U of T)</small>
+              <small>3rd Year Student (U of T)</small>
             </article>
             <article className="about__card">
               <FaCodeBranch className='about__icon' />
